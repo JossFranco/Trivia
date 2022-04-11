@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background: url(https://wallpapercave.com/wp/wp2685213.jpg);
+        background: url(imagenes/fondo.jpg);
         width: 100vw;
         height: 100vh;
         background-repeat: no-repeat;
@@ -27,21 +27,26 @@ flex-direction: column;
 z-index: 1;
 }
 #opacity{
-    background:#58494C;
+    background:#ffffff;
     position: absolute;
-    opacity:60%;
+    opacity:30%;
     width: 400px;
     height: 400px;
     filter: blur(4px);
     border-radius: 20px;
 }
+#title{
+    color: #152E3D;
+    font-weight: bold;
+    font-size: 40px;
+}
 #userName {
     padding: 8px 15px 8px 15px;
     border-radius: 15px;
     font-size: 16px;
-    background: #F2D8CB;
-    color: #5A4A4D;
-    border: #F2D8CB;
+    background: #ffffff;
+    color: #5E4938;
+    border: #ffffff;
     text-align: center;
 }
 
@@ -49,14 +54,63 @@ z-index: 1;
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 15px;
-    background: #F2D8CB;
-    border: #F2D8CB;
-    color: #5A4A4D;
+    background: #ffffff;
+    border: #ffffff;
+    color: #5E4938;
     cursor: pointer;
 }
 #start:hover {
-    background: #C08982;
-    border: #C08982;
-    color: #F2D8CB;
-
+    background: #1B3A4E;
+    border: #1B3A4E;
+    color: #ffffff;
 }
+#secondPage{
+    display:none;
+}
+#divSecondPage{
+    background-image: url(imagenes/secondPage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+#divSecondPage p{
+    color: #fff;
+    margin: -5px;
+}
+    .btnGame {
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        background:#152E3D;
+        border: #152E3D;
+        color: #ffff;
+        cursor: pointer;    
+        margin-top: 20px;
+        width: 50%;
+    }
+.btnGame:hover {
+    background: #ffff;
+    border: #ffff;
+    color: #1B3A4E;
+}
+#show{
+    display:flex;
+    flex-direction:column;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+    #opacityTwo{
+        background:#ffffff;
+        position: absolute;
+        opacity:30%;
+        width: 400px;
+        height: 400px;
+        filter: blur(4px);
+        border-radius: 20px;
+    }

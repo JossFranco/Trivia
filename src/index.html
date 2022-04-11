@@ -6,22 +6,36 @@
   <meta name="viewport" content="width=device-width">
   <title>DISNEYPLAYS</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="https://seeklogo.com/images/D/Disney-logo-847839C4FF-seeklogo.com.png
-  ">
+  <link rel="icon" href="imagenes/logo.png">
 </head>
 
 <body>
-    <img id= "logo" src="https://seeklogo.com/images/D/Disney-logo-847839C4FF-seeklogo.com.png">
+    <img id= "logo" src="imagenes/logo.png">
+
     <section id="firstPage">
         <div id="opacity"></div>
         <div id="register">
-        <img id="logoDisney" src="../imagenes/logo.png" width="400px"><br/><br/>
-        <div >
+        <h1 id="title">PotterHead</h1><br/><br/>
+        <div id="forms">
             <input id="userName" placeholder="Ingresa tu nombre" type="text"><br/><br/>
+            <p id="nameRequired"></p>
         </div>
         <button id="start">Comencemos</button><br/>
         </div>
     </section>
-    <!-- <script src="script.js"></script> -->
+    
+    <section id="secondPage">
+        <div id="divSecondPage">
+        <div id="opacityTwo"></div>
+        <div id="show">
+        <h2 id="welcome"></h2>
+        <p>Bienvenid@ a PotterHead, en este juego debes</p><br> <p>elegir una de las siguientes categorias</p>
+        <button class="btnGame" id="character">Personajes</button>
+        <button class="btnGame" id="phrase">Frases</button>
+        <button class="btnGame" id="houses">Casas</button>
+    </div>
+    </div>
+    </section>  
+    <script src="main.js"></script>
 </body>
-
+</html>
