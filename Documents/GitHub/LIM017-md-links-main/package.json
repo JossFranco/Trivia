@@ -1,0 +1,40 @@
+{
+  "name": "md-links-jgfh",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "description":"Analiza archivos markdown para comprobar los links que funcionan y no correctamente",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "node api.js",
+    "test": "jest --coverage",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindalopezc/LIM17-md-links.git"
+  },
+  "keywords": [
+    "node",
+    "jest",
+    "library",
+    "md",
+    "markdown",
+    "links"
+  ],
+  "author": "Joseline Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JossFranco/LIM017-md-links/issues"
+  },
+  "bin":{
+    "md-links": "./src/cli.js"
+  },
+  "homepage": "https://github.com/JossFranco/LIM017-md-links#readme"
+}
