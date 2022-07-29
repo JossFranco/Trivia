@@ -1,0 +1,44 @@
+.Table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+   width: 100%;
+   font-size: 20px;
+}
+th, td {
+ 
+  padding: 8px;
+  color: #000;
+  text-align: center;
+  border: 1px solid #CEE5D0;
+  margin: 20px 20px 20px 20px;
+  width: 25%;
+}
+.formInput{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #CEE5D0;
+    margin: 10px 10px 10px 10px;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+.btnAdd {
+  background: #cd8fcd;
+  font-size: 20;
+  font-size: 16px;
+  align-content: normal;
+  border: n;
+  border: 1px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 0;
+  margin: 10px;
+  color: white;
+}
+.TableHeader {
+  width: 58%;
+  margin: 30px 30px 30px 30px;
+}

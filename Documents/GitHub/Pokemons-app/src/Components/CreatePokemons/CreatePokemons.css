@@ -1,0 +1,54 @@
+.container{
+    width: 55%;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #CEE5D0;
+    flex-direction: column;
+}
+
+#name  {
+    width: 50%;
+    padding: 6px;
+    margin: 5px 5px 5px 5px;
+}
+#image  {
+    width: 50%;
+    padding: 6px;
+    margin: 5px 5px 5px 5px;
+}
+#attack  {
+    width: 50%;
+    padding: 6px;
+    margin: 5px 5px 5px 5px;
+}
+#defense  {
+    width: 50%;
+    padding: 6px;
+    margin: 5px 5px 5px 5px;
+}
+.btnCancel{
+    background: #cd8fcd;
+    font-size: 20;
+    font-size: 16px;
+    align-content: normal;
+    border: n;
+    border: 1px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+}
+.btnSave{
+    background: #e8d3e8;
+    font-size: 20;
+    font-size: 16px;
+    align-content: normal;
+    border: n;
+    border: 1px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+}

@@ -1,0 +1,1 @@
+import {FormPokemon} from './FormPokemon'
